@@ -1,0 +1,128 @@
+@media (max-width: 30rem) {
+    .header__toogle {
+        display: flex;
+    }
+
+    .header__menu {
+        display: none;
+    }
+}
+
+/* 1280px */
+@media (min-width: 80rem) {
+    .page__header {
+        margin-bottom: clamp(3.5rem, 4vh, 5rem);
+    }
+
+    .header__menu {
+        gap: 3.5vw;
+        font-size: clamp(1.1rem, 1vw, 1.25rem);
+    }
+
+    .header__logo {
+        width: clamp(5rem, 7vw, 6rem);
+        height: auto;
+    }
+
+    .page__info {
+        margin-bottom: clamp(2rem, 5vh, 2.5rem);
+    }
+
+    .info__container {
+        width: 30%;
+    }
+
+    .info__title {
+        font-size: clamp(4rem, 4.5vw, 5.5rem);
+    }
+
+    .info__date {
+        font-size: clamp(1.25rem, 1.5vw, 1.5rem);
+    }
+
+    .info__text {
+        font-size: clamp(0.9rem, 1vw, 1.1rem);
+    }
+
+    .page__website {
+        font-size: clamp(1rem, 1.1vw, 1.25rem);
+    }
+
+    .button {
+        width: clamp(11rem, 14vw, 14rem);
+    }
+
+    .social__icon svg {
+        width: clamp(1.75vw, 2vw, 2.5vw);
+    }
+
+    /* decorative elements */
+    .violet__circle {
+        width: clamp(15rem, 14.5vw, 16.5rem);
+        height: clamp(15rem, 14.5vw, 16.5rem);
+    }
+
+    .violet__leaf {
+        width: clamp(16rem, 17.5vw, 20.5rem);
+        height: clamp(16rem, 17.5vw, 20.5rem); 
+    }
+
+    .star__container--orange {
+        width: clamp(4.5rem, 4.5vw, 5.5rem); 
+        height: clamp(4.5rem, 4.5vw, 5.5rem); 
+        top: clamp(-4.5em, -5.5em, -6em);
+        left: clamp(-3.5em, -2em, -1em); 
+    }
+
+    .orange__star {
+        width: clamp(4.5rem, 4.5vw, 5.5rem); 
+        height: clamp(4.5rem, 4.5vw, 5.5rem); 
+    }
+
+    .circle--orange {
+        width: clamp(4.5rem, 4.5vw, 5.5rem); 
+        height: clamp(4.5rem, 4.5vw, 5.5rem); 
+    }
+
+    .star__container--green {
+        bottom: clamp(9.5rem, 10.5vw, 12rem);
+        left: clamp(22.5rem, 26vw, 28rem);
+    }
+
+    .green__star {
+        width: clamp(2.4rem, 2.9vw, 3.2rem); 
+        height: clamp(2.4rem, 2.9vw, 3.2rem); 
+    }
+
+    .circle--green {
+        width: clamp(2.4rem, 2.9vw, 3.2rem); 
+        height: clamp(2.4rem, 2.9vw, 3.2rem); 
+    }
+
+    .leaf__container {
+        top: clamp(4rem, 3.2rem, 2.75rem);
+        left: clamp(21rem, 24vw, 28rem);
+        width: clamp(9.5rem, 9.5vw, 10.5rem); 
+    }
+
+    .melon__container {
+        top: 20%;
+        bottom: 0;
+        right: clamp(8.5rem, 9vw, 12rem); 
+        height: 80%;
+        width: clamp(40rem, 50vw, 45rem); 
+    }
+    
+    .dots__container {
+        right: clamp(8.5rem, 0.9vw, 12rem); 
+        gap: clamp(0.5rem, 0.6vw, 0.65rem); 
+        width: clamp(13rem, 13.5vw, 16rem); 
+        height: clamp(13rem, 13.5vw, 16rem); 
+    }
+    
+    .white-dot {
+        width: clamp(0.5rem, 0.6vw, 0.65rem);   
+        height: clamp(0.5rem, 0.6vw, 0.65rem); 
+    }
+}
+
