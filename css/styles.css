@@ -553,6 +553,7 @@ body {
     width: auto;
     height: 100%;
     overflow: hidden; 
+    animation: reveal 2s linear forwards;
 }
 
 .melon {
