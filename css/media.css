@@ -105,12 +105,12 @@
         width: clamp(9.5rem, 9.5vw, 10.5rem); 
     }
 
-    .melon__container {
+    /*.melon__container {
         bottom: 0;
         right: clamp(8.5rem, 9vw, 12rem); 
         height: 80%;
         width: clamp(40rem, 50vw, 45rem); 
-    }
+    }*/
     
     .dots__container {
         right: clamp(8.5rem, 0.9vw, 12rem); 
