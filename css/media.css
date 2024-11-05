@@ -106,7 +106,6 @@
     }
 
     .melon__container {
-        top: 20%;
         bottom: 0;
         right: clamp(8.5rem, 9vw, 12rem); 
         height: 80%;
