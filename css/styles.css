@@ -28,6 +28,17 @@
         url('../fonts/YesevaOne-Regular.woff2') format('woff2');
 }
 
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0; 
+    }
+    to {
+        transform: translateY(0); 
+        opacity: 1;
+    }
+}
+
 /* animation */
 @keyframes dots-loader {
     0%, 100% {
@@ -548,12 +559,13 @@ body {
 
 .melon__container {
     position: absolute; 
-    top: 10rem;
+    z-index: 0;
+    bottom: 0;
     right: 10rem;
-    width: auto;
-    height: 100%;
+    width: 50vw;
+    height: 45vw;
     overflow: hidden; 
-    animation: reveal 2s linear forwards;
+    animation: slideUp 2s ease forwards;
 }
 
 .melon {
