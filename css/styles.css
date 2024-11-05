@@ -71,14 +71,14 @@
       }
 }
 
-/*@keyframes reveal {
+@keyframes reveal {
     from {
         height: 0; 
     }
     to {
         height: 35vw;
     }
-} */
+} 
 
 body {
     display: flex;
