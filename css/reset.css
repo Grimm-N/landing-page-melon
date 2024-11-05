@@ -26,8 +26,8 @@ ol[role='list'] {
 
 /* Set shorter line heights on headings and interactive elements */
 h1, h2, h3, h4,
-button, input, label {
-  line-height: 1.1;
+button, input, la1bel {
+  line-height: 1.02;
 }
 
 /* Balance text wrapping on headings */
